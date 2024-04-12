@@ -1,0 +1,167 @@
+@import "hero.css";
+@import "post.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family:  "Montserrat","Poppins", sans-serif;
+  color: #e2e2e2;
+}
+
+.title-page{
+  font-size: 3rem;
+}
+
+.pop{
+  max-width: 1400px;
+  margin: 0 auto;
+
+  margin-top: 175px;
+}
+.pop h3{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.pop ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin-top: 80px;
+  align-items: end;
+  position: relative;
+}
+
+.pop ul li{
+  list-style: none;
+}
+.loc-pop{
+ margin-left: 260px;
+}
+.loc-pop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%; /* Posiciona a linha no centro */
+  transform: translateX(-50%); /* Ajusta para alinhar corretamente no centro */
+  width: 1px;
+  height: 750px;
+  background-color: #a2a2a2;
+}
+
+
+
+.flex-pop{
+  display: flex;
+  gap: 80px;
+}
+
+.flex-pop-{
+  display: flex;
+  gap: 150px;
+  margin-bottom: 40px;
+}
+
+.lista-artistas{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.lista-artistas li{
+  background-color: #252525;
+  padding: 20px 40px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border-radius: 6px;
+}
+.lista-artistas li:hover{
+  background-color: #FF5B50;
+  color: #fff;
+}
+.lista-artistas li span:hover{
+  color: #fff;
+}
+.lista-artistas h4{
+  display: flex;
+  gap: 40px;
+}
+
+.best{
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer{
+  background-color: #252525;
+  padding-bottom: 200px;
+
+}
+.top-footer{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.color-div{
+   background-color: #FF5B50;
+   padding: 15px 20px;
+
+}
+
+.flex-footer{
+display: grid;
+grid-template-columns: 1fr 1fr  ;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 25px;
+  border-top: 1px solid #a2a2a2;
+  border-bottom: 1px solid #a2a2a2;
+
+
+  
+}
+.flex-footer input{
+  background-color: #252525;
+  color: #a2a2a2;
+  padding: 10px 20px;
+  border: 1px solid #a2a2a2;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.flex-footer button{
+  background-color:#fff;
+  color:#252525;
+  padding: 10px 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin-left: -4px;
+  
+}
+
+.flex-footer-2{
+  display: flex;
+  gap: 100px;
+  margin-left: 100px;
+
+}
+.flex-footer-2 ul li{
+  list-style: none;
+  margin-bottom: 20px;
+  color: #a2a2a2;
+}
+.flex-footer-2 ul li:hover{
+  color: #fff;
+}
+
